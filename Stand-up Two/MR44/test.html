@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location Comparison</title>
+</head>
+<body>
+<button onclick="compareLocation()">Compare My Location</button>
+<p id="result"></p>
+
+<script>
+  function compareLocation() {
+    // 要比较的坐标
+    const predefinedLat = 40.730610;
+    const predefinedLon = -73.935242;
+
+    if (!navigator.geolocation) {
+      document.getElementById('result').textContent = 'Geolocation is not supported by your browser';
+    } else {
+      navigator.geolocation.getCurrentPosition(success, error);
+    }
+
+    function success(position) {
+      const latitude  = position.coords.latitude;
+      const longitude = position.coords.longitude;
+
+      // 与预定义坐标进行比较
+      if (latitude === predefinedLat && longitude === predefinedLon) {
+        document.getElementById('result').textContent = 'You are in the predefined location!';
+      } else {
+        document.getElementById('result').textContent = 'You are in a different location.';
+      }
+    }
+
+    function error() {
+      document.getElementById('result').textContent = 'Unable to retrieve your location';
+    }
+  }
+</script>
+</body>
+</html>

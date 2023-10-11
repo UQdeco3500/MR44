@@ -1,0 +1,41 @@
+// Toggles
+//
+// Used in conjunction with global variables to enable certain theme features.
+
+// Utilities
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/breakpoints";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/hover";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/image";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/badge";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/resize";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/screen-reader";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/size";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/reset-text";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/text-emphasis";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/text-hide";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/text-truncate";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/visibility";
+
+// // Components
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/alert";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/buttons";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/caret";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/pagination";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/lists";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/list-group";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/nav-divider";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/forms";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/table-row";
+
+// // Skins
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/background-variant";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/border-radius";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/box-shadow";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/gradients";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/transition";
+
+// // Layout
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/clearfix";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/grid-framework";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/grid";
+@import "assets/scss/1-frameworks/bootstrap/source/mixins/float";
