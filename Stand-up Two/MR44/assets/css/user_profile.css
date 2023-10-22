@@ -64,7 +64,11 @@
     padding: 10px;
 }
 
-
+@media screen and (max-width: 768px) {
+    .grid-container {
+        flex-direction: column; /* Change direction from row to column */
+    }
+}
   
 .grid-container div {
     text-align: center;
