@@ -73,21 +73,21 @@ NAVBAR
 	</div>
 	<div class="col-md-6 p-0 bg-white h-md-100 loginarea" style="background-color: #522379;">
 		<div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center" style="background-color: #522379;">
-			<form class="border rounded p-5" style="background-color:white;">
+			<form class="border rounded p-5" action="./sports.html" onsubmit="return validateForm()">
 				<h3 class="mb-4 text-center">Sign In</h3>
 				<div class="form-group">
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Student Number" required="">
+					<input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Student Number" required="">
 				</div>
 				<div class="form-group">
-					<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required="">
+					<input type="password" class="form-control" id="password" placeholder="Password" required="">
 				</div>
 				<div class="form-group form-check">
 					<input type="checkbox" class="form-check-input" id="exampleCheck1">
 					<label class="form-check-label small text-muted" for="exampleCheck1">Remember me</label>
 				</div>
-				<a class="btn btn-secondary btn-round btn-block shadow-sm" href="./sports.html">
+				<button type="submit" class="btn btn-success btn-round btn-block shadow-sm">
 					<i class="fa-solid fa-right-to-bracket"></i> Sign In
-				</a>
+				</button>
 				<small class="d-block mt-4 text-center"><a class="text-gray" href="https://portal.my.uq.edu.au/">Forgot your password?</a></small>
 			</form>
 		</div>
@@ -294,8 +294,21 @@ AOS.init({
 <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
-    })
+    })	
 </script>
-    
+<script>
+    function validateForm() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if (username === "s1234567" && password === "123456") {
+        window.location.href = "./sports.html"; 
+        return false; 
+    } else {
+        alert("Incorrect username or password!"); 
+        return false; 
+    }
+}
+</script>
 </body>
 </html>
