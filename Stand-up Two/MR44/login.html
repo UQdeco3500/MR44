@@ -82,14 +82,14 @@ NAVBAR
 					<input type="password" class="form-control" id="password" placeholder="Password" required="">
 				</div>
 				<div class="form-group form-check">
-					<input type="checkbox" class="form-check-input" id="exampleCheck1">
+					<input type="checkbox" class="form-check-input"  id="agreePolicy">
 					<label class="form-check-label small text-muted" for="exampleCheck1"><a style="color: white;"> agree to the </a><a href="privacy.html" style="color: aquamarine;">Privacy Policy</a></label>
 				</div>
 				<div class="form-group form-check">
 					<input type="checkbox" class="form-check-input" id="exampleCheck1">
 					<label class="form-check-label small text-muted" for="exampleCheck1"><a style="color: white;">Remember me</a></label>
 				</div>
-				<button type="submit" class="btn btn-success btn-round btn-block shadow-sm">
+				<button type="submit" class="btn btn-success btn-round btn-block shadow-sm" id="signInBtn">
 					<i class="fa-solid fa-right-to-bracket"></i> Sign In
 				</button>
 				<small class="d-block mt-4 text-center"><a class="text-gray" href="https://portal.my.uq.edu.au/">Forgot your password?</a></small>
@@ -313,6 +313,16 @@ AOS.init({
         return false; 
     }
 }
+</script>
+<!-- AgreePolicy -->
+<script>
+	document.getElementById('signInBtn').addEventListener('click', function (event) {
+		const isAgreePolicyChecked = document.getElementById('agreePolicy').checked;
+		if (!isAgreePolicyChecked) {
+			alert('You must agree to the Privacy Policy to continue.');
+			event.preventDefault();
+		}
+	});
 </script>
 </body>
 </html>
