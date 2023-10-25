@@ -11,7 +11,7 @@
 
 <script>
   function compareLocation() {
-    // 要比较的坐标
+    
     const predefinedLat = 40.730610;
     const predefinedLon = -73.935242;
 
@@ -25,7 +25,7 @@
       const latitude  = position.coords.latitude;
       const longitude = position.coords.longitude;
 
-      // 与预定义坐标进行比较
+      
       if (latitude === predefinedLat && longitude === predefinedLon) {
         document.getElementById('result').textContent = 'You are in the predefined location!';
       } else {
