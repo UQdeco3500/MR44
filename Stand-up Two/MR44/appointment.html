@@ -47,6 +47,7 @@ NAVBAR
                         Services </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="./login.html">User Login</a>
+                        <a class="dropdown-item" href="./user_profile2.html">Profile</a>
                         <a class="dropdown-item" href="blog.html">Blog Index</a>
                         <a class="dropdown-item" href="privacy.html">Privacy Policy</a>
                     </div>
@@ -77,7 +78,7 @@ CALENDAR
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/core/main.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/daygrid/main.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/4.2.0/interaction/main.js'></script>
-<div id='calendar' style="padding-top: 80px;"></div>
+<div id='calendar' style="padding-top: 100px;"></div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('calendar');
@@ -110,7 +111,7 @@ CALENDAR
             eventClick: function(info) {
                 var confirmCancel = confirm('Are you sure to cancel ' + info.event.title + ' ?');
                 if (confirmCancel) {
-                    info.event.remove(); // 移除预约事件
+                    info.event.remove();
                     alert('Cancel success!');
                 }
             }

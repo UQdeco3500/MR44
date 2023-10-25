@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd8f7ce8-fbaa-43f3-a57e-dc9df0434cca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stand-up Two/MR44/user_proflie table3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/I_am_here.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/I_am_here.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/appointment.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/appointment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/chat_1_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/chat_1_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/evaluations.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/evaluations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/exit.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/exit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/privacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/privacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/sports.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/sports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/starter-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/starter-template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile table.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile table2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile table2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/user_profile2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stand-up Two/MR44/venue.html" beforeDir="false" afterPath="$PROJECT_DIR$/Stand-up Two/MR44/venue.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2XFuPB5LCCEd4FHCNzqWEwBdvGF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.user_profile.html">
+    <configuration name="I_am_here.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MR44-github/Stand-up Two/MR44/I_am_here.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="user_profile2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MR44-github/Stand-up Two/MR44/user_profile2.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="user_profile3.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MR44-github/Stand-up Two/MR44/user_profile3.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="user_profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MR44-github/Stand-up Two/MR44/user_profile.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="venue.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MR44-github/Stand-up Two/MR44/venue.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.user_profile.html" />
+        <item itemvalue="JavaScript Debug.user_profile2.html" />
+        <item itemvalue="JavaScript Debug.user_profile3.html" />
+        <item itemvalue="JavaScript Debug.I_am_here.html" />
+        <item itemvalue="JavaScript Debug.venue.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fd8f7ce8-fbaa-43f3-a57e-dc9df0434cca" name="Changes" comment="" />
+      <created>1698237135613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698237135613</updated>
+      <workItem from="1698237144786" duration="1814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
